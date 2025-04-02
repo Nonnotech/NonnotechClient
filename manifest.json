@@ -1,10 +1,10 @@
 {
-        backend: '1.0.0',
-        client: '1.0.0',
-        jdk: '1.0.0',
-        applicationProperties: '1.0.0',
-        smartcardDrivers: {
-            dll: '1.0.0',
-            so: '1.0.0'
-        }
+    "backend": "1.0.0",
+    "client": "1.0.0",
+    "jdk": "1.0.0",
+    "applicationProperties": "1.0.0",
+    "smartcardDrivers": {
+        "dll": "1.0.0",
+        "so": "1.0.0"
     }
+}
