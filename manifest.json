@@ -5,7 +5,7 @@
     },
     "NonnotechClient": {
         "version": "1.0.0",
-        "extname": "jar"
+        "extname": "exe"
     },
     "jdk": {
         "version": "1.0.0",
