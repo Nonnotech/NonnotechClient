@@ -1,6 +1,6 @@
 {
-    "backend": "1.0.0",
-    "client": "1.0.0",
+    "NonnotechBackend": "1.0.0",
+    "NonnotechClient": "1.0.0",
     "jdk": "1.0.0",
     "applicationProperties": "1.0.0",
     "smartcardDrivers": {
