@@ -1,7 +1,22 @@
 {
-    "NonnotechBackend": "1.0.0",
-    "NonnotechClient": "1.0.0",
-    "jdk": "1.0.0",
-    "applicationProperties": "1.0.0",
-    "smartcardDrivers": "1.0.0"
+    "NonnotechBackend": {
+        "version": "1.0.0",
+        "extname": "jar"
+    },
+    "NonnotechClient": {
+        "version": "1.0.0",
+        "extname": "jar"
+    },
+    "jdk": {
+        "version": "1.0.0",
+        "extname": "zip"
+    },
+    "applicationProperties": {
+        "version": "1.0.0",
+        "extname": "properties"
+    },
+    "smartcardDrivers": {
+        "version": "1.0.0",
+        "extname": "zip"
+    }
 }
