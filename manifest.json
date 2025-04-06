@@ -1,10 +1,27 @@
 {
-    "backend": "1.0.0",
-    "client": "1.0.0",
-    "jdk": "1.0.0",
-    "applicationProperties": "1.0.0",
+    "NonnotechBackend": {
+      "version": "1.0.0",
+      "extname": "jar",
+      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/NonnotechBackend-1.0.0.jar"
+    },
+    "NonnotechClient": {
+      "version": "1.0.0",
+      "extname": "exe",
+      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/NonnotechClient-1.0.0.exe"
+    },
+    "jdk": {
+      "version": "1.0.0",
+      "extname": "zip",
+      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/jdk-1.0.0.zip"
+    },
+    "applicationProperties": {
+      "version": "1.0.0",
+      "extname": "properties",
+      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/applicationProperties-1.0.0.properties"
+    },
     "smartcardDrivers": {
-        "dll": "1.0.0",
-        "so": "1.0.0"
+      "version": "1.0.0",
+      "extname": "zip",
+      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/smartcardDrivers-1.0.0.zip"
     }
-}
+  }
