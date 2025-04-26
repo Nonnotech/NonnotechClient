@@ -1,27 +1,42 @@
 {
-    "NonnotechBackend": {
+  "packageVersion": "1.0.0",
+  "releaseNotesUrl": "https://github.com/Nonnotech/NonnotechClient/releases/tag/v1.0.0",
+  "components": {
+    "client": {
       "version": "1.0.0",
-      "extname": "jar",
-      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/NonnotechBackend-1.0.0.jar"
+      "url": "https://github.com/Nonnotech/NonnotechClient/releases/tag/v1.0.0/NonnotechClientSetup-1.0.0.exe",
+      "checksum": "f4a6c56285ac7b5a772ae66bd5b41bfd3fe6ca3af0ebf1d3b6dcd323c2a3a3f1",
+      "checksumAlgorithm": "sha256",
+      "fileType": "exe"
     },
-    "NonnotechClient": {
+    "backend": {
       "version": "1.0.0",
-      "extname": "exe",
-      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/NonnotechClient-1.0.0.exe"
+      "url": "https://github.com/Nonnotech/NonnotechClient/releases/tag/v1.0.0/NonnotechBackend-1.0.0.jar",
+      "checksum": "215e34e2ab85304cbe2cec1005ffc6b58730b9b01bc83f4a2ec2162e1ef71cd2",
+      "checksumAlgorithm": "sha256",
+      "fileType": "jar"
     },
-    "jdk": {
-      "version": "1.0.0",
-      "extname": "zip",
-      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/jdk-1.0.0.zip"
+    "jre": {
+      "version": "23",
+      "url": "https://github.com/Nonnotech/NonnotechClient/releases/tag/v1.0.0/jre-23.zip",
+      "checksum": "22722f3b6023bca3c548abc8a5ce30f34341e9f6291c15fc28e1391785866d4c",
+      "checksumAlgorithm": "sha256",
+      "fileType": "zip",
+      "extractPath": "jre"
     },
     "applicationProperties": {
       "version": "1.0.0",
-      "extname": "properties",
-      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/applicationProperties-1.0.0.properties"
+      "url": "https://github.com/Nonnotech/NonnotechClient/releases/tag/v1.0.0/application.properties",
+      "checksum": "736a148dc9ce7330a37ac29c0a9aa5827e22937e8812605877617396c79a4098",
+      "checksumAlgorithm": "sha256",
+      "fileType": "config"
     },
     "smartcardDrivers": {
-      "version": "1.0.0",
-      "extname": "zip",
-      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/smartcardDrivers-1.0.0.zip"
+        "version": "1.0.0",
+        "url": "https://github.com/Nonnotech/NonnotechClient/releases/tag/v1.0.0/smartcardDrivers-1.0.0.zip",
+        "checksum": "acc290166bf05b1689581c12b6576c76d06896dd44ee14223a4e8a986c2feb5c",
+        "checksumAlgorithm": "sha256",
+        "fileType": "zip"
     }
   }
+}
