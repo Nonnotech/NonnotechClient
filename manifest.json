@@ -1,14 +1,28 @@
 {
-  "NonnotechBackend": {
-    "version": "1.0.1"
-  },
-  "NonnotechClient": {
-    "version": "1.0.1"
-  },
-  "jre": {
-    "version": "23"
-  },
-  "packageVersion": {
-    "version": "1.0.1"
+  "packageVersion": "1.0.1",
+  "releaseNotesUrl": null,
+  "components": { 
+    "client": { 
+      "version": "1.0.1",
+      "url": "https://github.com/Nonnotech/NonnotechClient/releases/download/v1.0.1/NonnotechClientSetup-1.0.1.exe", 
+      "checksum": "86423bc90f3951361b1db8ce5700b5a5d5d06261526aab2f6b133e6945d86f7b",
+      "checksumAlgorithm": "sha256",
+      "fileType": "exe"
+    },
+    "backend": { 
+      "version": "1.0.1",
+      "url": "https://github.com/Nonnotech/NonnotechClient/releases/download/v1.0.1/NonnotechBackend-1.0.1.jar", 
+      "checksum": "d1df8713ec663585fe20a8a2faabf4536836b5528e08cdd0e2a147a3bf92bbd6",
+      "checksumAlgorithm": "sha256",
+      "fileType": "jar"
+    },
+    "jre": {
+      "version": "23.0.0", 
+      "url": "https://github.com/Nonnotech/NonnotechClient/releases/download/v1.0.1/jre-23.zip",
+      "checksum": "22722f3b6023bca3c548abc8a5ce30f34341e9f6291c15fc28e1391785866d4c",
+      "checksumAlgorithm": "sha256",
+      "fileType": "zip",
+      "extractPath": "jre"
+    }
   }
 }
