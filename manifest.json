@@ -10,6 +10,12 @@
       "fileType": "client", 
       "sourceInPackage": "app" 
     },
+    "backend": {
+      "version": "1.0.3", 
+      "fileType": "jar", 
+      "sourceInPackage": "app/backend/backend.jar", 
+      "targetRelativePath": "backend/backend.jar" 
+    },
     "jre": {
       "version": "23.0.1",
       "fileType": "jre",
