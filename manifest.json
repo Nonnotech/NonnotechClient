@@ -1,7 +1,7 @@
 {
   "packageVersion": "1.0.2",
   "packageUrl": "https://github.com/Nonnotech/NonnotechClient/releases/download/v1.0.1/update-package-win-v1.0.1.zip",
-  "packageSha512": "afcfd5e2100e1f6126784487d0f2b7424c3001df4f03df4a4885e12d1c6cdc38eb8e4488fac932531ef06205c5e44247080a628d4099cc64022fbb7e744eaf35",
+  "packageSha512": "99810c9b678a2c356db9237fcf84e6e3fc301b654ff0b666a56887900606d66a01808c7ebd1c1cce7cb780f2d9c6a580805303162f2f84447e7c0d4883efa9d3",
   "packageSize": 189824010,
   "releaseNotesUrl": "https://github.com/Nonnotech/NonnotechClient/blob/main/README.md",
   "components": {
