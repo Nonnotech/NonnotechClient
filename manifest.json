@@ -5,23 +5,23 @@
   "packageSize": 189823437,
   "releaseNotesUrl": "https://github.com/Nonnotech/NonnotechClient/blob/main/README.md",
   "components": {
-    "client_core": { // Preimenovano da bude jasno da je ovo OSNOVNA struktura
-      "version": "1.0.2", // Verzija koja uključuje Electron i Backend za ovaj paket
-      "fileType": "client", // Signalizira da je ovo glavni app folder
-      "sourceInPackage": "app" // Kopiraj/zameni CEO app folder iz ZIP-a
+    "client_core": { 
+      "version": "1.0.2", 
+      "fileType": "client", 
+      "sourceInPackage": "app" 
     },
     "jre": {
       "version": "23.0.1",
       "fileType": "jre",
       "sourceInPackage": "drivers/jre",
-      "targetDirType": "drivers" // Ide u cfg.DriversDir
+      "targetDirType": "drivers" 
     },
     "pkcs11_drivers": {
       "version": "1.0.2",
-      "fileType": "config", // Ili "drivers_generic"
+      "fileType": "config", 
       "sourceInPackage": "drivers/cards",
       "targetDirType": "drivers",
-      "requiresPostScript": true // Opciono
+      "requiresPostScript": true 
     },
     "updater": {
       "version": "1.0.2",
