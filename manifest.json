@@ -9,10 +9,7 @@
       "version": "1.0.2", // Verzija koja uključuje Electron i Backend za ovaj paket
       "fileType": "client", // Signalizira da je ovo glavni app folder
       "sourceInPackage": "app" // Kopiraj/zameni CEO app folder iz ZIP-a
-      // targetDirType nije potreban, podrazumevano je "target"
     },
-    // NE TREBA POSEBAN UNOS ZA "backend" ako se kopira kao deo "client_core"
-    // "backend": { ... } // <-- OVAJ UNOS SE BRIŠE
     "jre": {
       "version": "23.0.1",
       "fileType": "jre",
@@ -30,7 +27,6 @@
       "version": "1.0.2",
       "fileType": "exe",
       "sourceInPackage": "updater.exe"
-      // TargetDirType nije potreban, updater.exe se ne kopira u finalnu destinaciju
     }
   }
 }
