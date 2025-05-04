@@ -17,7 +17,7 @@
       "targetRelativePath": "backend/backend.jar" 
     },
     "jre": {
-      "version": "23",
+      "version": "23.0.1",
       "fileType": "jre",
       "sourceInPackage": "drivers/jre",
       "targetDirType": "drivers" 
