@@ -6,31 +6,31 @@
   "releaseNotesUrl": "https://github.com/Nonnotech/NonnotechClient/blob/main/README.md",
   "components": {
     "client_core": { 
-      "version": "1.0.2", 
+      "version": "1.0.1", 
       "fileType": "client", 
       "sourceInPackage": "app"
     },
     "backend": {
-      "version": "1.0.3", 
+      "version": "1.0.1", 
       "fileType": "jar", 
       "sourceInPackage": "app/backend/backend.jar", 
       "targetRelativePath": "backend/backend.jar" 
     },
     "jre": {
-      "version": "23.0.1",
+      "version": "23",
       "fileType": "jre",
       "sourceInPackage": "drivers/jre",
       "targetDirType": "drivers" 
     },
     "pkcs11_drivers": {
-      "version": "1.0.2",
+      "version": "1.0.1",
       "fileType": "config", 
       "sourceInPackage": "drivers/cards",
       "targetDirType": "drivers",
       "requiresPostScript": true 
     },
     "updater": {
-      "version": "1.0.2",
+      "version": "1.0.1",
       "fileType": "exe",
       "sourceInPackage": "updater.exe"
     }
