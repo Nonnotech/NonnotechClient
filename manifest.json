@@ -6,7 +6,7 @@
   "releaseNotesUrl": "https://github.com/Nonnotech/NonnotechClient/blob/main/README.md",
   "components": {
     "client_core": { 
-      "version": "1.0.1", 
+      "version": "1.0.2", 
       "fileType": "client", 
       "sourceInPackage": "app"
     },
