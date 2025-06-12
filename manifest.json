@@ -2,7 +2,7 @@
   "packageVersion": "1.0.4",
   "packageUrl": "https://github.com/Nonnotech/NonnotechClient/releases/download/v1.0.3/update-package-win-v1.0.3.zip",
   "packageSha512": "4B43E490E3C2441ACBCB817721E681E15FF3F2900A5B5CDED20B3DBFFF5489756B79DE0E3DA6E90724F289135571D4D83AEDAFEA4EF5B10516A56766E16B20C8",
-  "packageSize": 188343360,
+  "packageSize": 188343788,
   "releaseNotesUrl": "https://github.com/Nonnotech/NonnotechClient/blob/main/README.md",
   "components": {
     "client_core": { 
