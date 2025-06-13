@@ -1,17 +1,17 @@
 {
-  "packageVersion": "1.0.5",
+  "packageVersion": "1.0.6",
   "packageUrl": "https://github.com/Nonnotech/NonnotechClient/releases/download/v1.0.5/update-package-win-v1.0.5.zip",
   "packageSha512": "4B43E490E3C2441ACBCB817721E681E15FF3F2900A5B5CDED20B3DBFFF5489756B79DE0E3DA6E90724F289135571D4D83AEDAFEA4EF5B10516A56766E16B20C8",
-  "packageSize": 188343279,
+  "packageSize": 188343358,
   "releaseNotesUrl": "https://github.com/Nonnotech/NonnotechClient/blob/main/README.md",
   "components": {
     "client_core": { 
-      "version": "1.0.5", 
+      "version": "1.0.6", 
       "fileType": "client", 
       "sourceInPackage": "app"
     },
     "backend": {
-      "version": "1.0.5", 
+      "version": "1.0.6", 
       "fileType": "jar", 
       "sourceInPackage": "app/backend/backend.jar", 
       "targetRelativePath": "backend/backend.jar" 
