@@ -1,27 +1,38 @@
 {
-    "NonnotechBackend": {
-      "version": "1.0.0",
-      "extname": "jar",
-      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/NonnotechBackend-1.0.0.jar"
+  "packageVersion": "1.0.7",
+  "packageUrl": "https://github.com/Nonnotech/NonnotechClient/releases/download/v1.0.7/update-package-win-v1.0.7.zip",
+  "packageSha512": "4B43E490E3C2441ACBCB817721E681E15FF3F2900A5B5CDED20B3DBFFF5489756B79DE0E3DA6E90724F289135571D4D83AEDAFEA4EF5B10516A56766E16B20C8",
+  "packageSize": 188342676,
+  "releaseNotesUrl": "https://github.com/Nonnotech/NonnotechClient/blob/main/README.md",
+  "components": {
+    "client_core": { 
+      "version": "1.0.7", 
+      "fileType": "client", 
+      "sourceInPackage": "app"
     },
-    "NonnotechClient": {
-      "version": "1.0.0",
-      "extname": "exe",
-      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/NonnotechClient-1.0.0.exe"
+    "backend": {
+      "version": "1.0.7", 
+      "fileType": "jar", 
+      "sourceInPackage": "app/backend/backend.jar", 
+      "targetRelativePath": "backend/backend.jar" 
     },
-    "jdk": {
-      "version": "1.0.0",
-      "extname": "zip",
-      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/jdk-1.0.0.zip"
+    "jre": {
+      "version": "23.0.1",
+      "fileType": "jre",
+      "sourceInPackage": "drivers/jre",
+      "targetDirType": "drivers" 
     },
-    "applicationProperties": {
-      "version": "1.0.0",
-      "extname": "properties",
-      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/applicationProperties-1.0.0.properties"
+    "pkcs11_drivers": {
+      "version": "1.0.1",
+      "fileType": "config", 
+      "sourceInPackage": "drivers/cards",
+      "targetDirType": "drivers",
+      "requiresPostScript": true 
     },
-    "smartcardDrivers": {
-      "version": "1.0.0",
-      "extname": "zip",
-      "url": "https://media.githubusercontent.com/media/Nonnotech/NonnotechClient/refs/heads/main/smartcardDrivers-1.0.0.zip"
+    "updater": {
+      "version": "1.0.1",
+      "fileType": "exe",
+      "sourceInPackage": "updater.exe"
     }
   }
+}
